@@ -7,6 +7,7 @@ public class RFBSystem {
         boolean isRunning = true;
         Controller controller = new Controller();
 
+        //bare en kommentar
 
         while(isRunning) {
 
