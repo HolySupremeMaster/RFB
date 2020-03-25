@@ -1,7 +1,7 @@
 package Service;
 
 import Models.Child;
-import Repositorys.ChildRepository;
+import Repositories.ChildRepository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

@@ -1,4 +1,4 @@
-package Repositorys;
+package Repositories;
 
 import Config.MySQLConnection;
 
