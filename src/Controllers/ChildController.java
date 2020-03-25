@@ -6,7 +6,7 @@ import Service.ChildService;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class Controller {
+public class ChildController {
 
     ChildService cs = new ChildService();
 
