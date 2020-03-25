@@ -1,7 +1,10 @@
+package Service;
+
+import Models.Child;
+import Repositorys.ChildRepository;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ChildService {
     ChildRepository cr = new ChildRepository();

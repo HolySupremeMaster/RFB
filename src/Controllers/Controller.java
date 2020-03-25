@@ -1,5 +1,9 @@
+package Controllers;
+
+import Models.Child;
+import Service.ChildService;
+
 import java.sql.SQLException;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Controller {
@@ -7,7 +11,7 @@ public class Controller {
     ChildService cs = new ChildService();
 
     public void createChild() throws SQLException {
-        //Child child = new Child();
+        //Models.Child child = new Models.Child();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("CPR nr på barn: ");
@@ -84,7 +88,7 @@ public class Controller {
     Lagde kun den sidste value ind i db som var location, som kom til at ligge på childFirstName i db;
     Derfor lavede jeg en nye contructer med de input som skulle ligges ind.
     public void createChild() throws SQLException {
-        Child child = new Child();
+        Models.Child child = new Models.Child();
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Fornavn på barn: ");

@@ -1,3 +1,5 @@
+package Models;
+
 public class Child {
     private int cprNrID;
     private int dateOfEntry;

@@ -1,3 +1,7 @@
+package Repositorys;
+
+import Config.MySQLConnection;
+
 import java.sql.*;
 
 public class ChildRepository {
