@@ -10,7 +10,7 @@ public class RFBSystem {
         //bare en kommentar
 
         while(isRunning) {
-
+            System.out.println("hey");
 
 
             System.out.println("\n 1. Opret barn \n 2. Indlæs alle børn \n 3. " +
